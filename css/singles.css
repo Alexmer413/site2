@@ -1,0 +1,129 @@
+/*-----singles-----*/
+.singles {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.singles__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.yandex-music {
+  margin-bottom: 20px;
+}
+
+.singles__both {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.singles__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+}
+
+.singles__info {
+  letter-spacing: 3px;
+}
+.singles__info p {
+  margin-bottom: 10px;
+}
+.singles__info p:last-child {
+  margin-bottom: 0px;
+}
+.singles__info_right {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: rgb(166, 175, 225);
+  margin-left: 40px;
+}
+.singles__info_right p {
+  margin-bottom: 10px;
+}
+.singles__info_right p:last-child {
+  margin-bottom: 0px;
+}
+
+.singles__cover {
+  width: 200px;
+}
+
+.singles__img {
+  width: 100%;
+}
+
+.singles__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.music-item {
+  display: inline-block;
+}
+
+.singles__link {
+  display: block;
+  padding: 5px 7px 5px 5px;
+  border: 1px solid rgb(92, 91, 91);
+  border-radius: 6px;
+  -webkit-transition: border-color 0.2s linear;
+  -o-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+}
+.singles__link:hover {
+  border-color: rgb(249, 56, 56);
+}
+
+.singles__link-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 22px;
+  width: 105px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.singles__icon {
+  height: 100%;
+}
+
+.singles__text {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #fff;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.music__links_title {
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}

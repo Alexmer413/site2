@@ -1,0 +1,129 @@
+/*-----PHOTOS------*/
+.section {
+  font-size: 22px;
+  margin-bottom: 10px;
+  padding: 25px 0px;
+  width: 100%;
+  position: relative;
+}
+
+.section__content {
+  text-align: center;
+}
+.section__content:before, .section__content:after {
+  content: "";
+  width: 42%;
+  height: 2px;
+  background-color: #5279a5;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.section__content::before {
+  left: 0;
+  top: 50%;
+}
+.section__content::after {
+  right: 0;
+  top: 50%;
+}
+
+.photos {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.photos__inner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.photos__item {
+  width: 25%;
+  height: 150px;
+  padding: 10px;
+  overflow: hidden;
+}
+.photos__item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: opacity 0.1s linear;
+  -o-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+.photos__item img:hover {
+  opacity: 0.5;
+}
+
+.photos__background {
+  background-color: #d6d3e6;
+  overflow: hidden;
+}
+
+/*-----fancybox-----*/
+.fancybox {
+  width: 100%;
+}
+
+.fancybox__inner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.fancybox__item {
+  width: 25%;
+  height: 150px;
+  padding: 10px;
+  overflow: hidden;
+}
+.fancybox__item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: opacity 0.1s linear;
+  -o-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+.fancybox__item img:hover {
+  opacity: 0.5;
+}
+
+.fancybox__background {
+  background-color: #d6d3e6;
+  overflow: hidden;
+}
+
+.fancybox__backdrop {
+  --fancybox-bg: rgba(0, 0, 0, 0.7);
+}
+
+.close__fancy {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 10000;
+}
+
+.fancybox__nav {
+  --f-button-next-pos: 28px !important;
+  --f-button-prev-pos: 8px !important;
+}
+
+.fancybox__toolbar {
+  --f-button-svg-width: 30px !important;
+  --f-button-svg-height: 20px;
+}

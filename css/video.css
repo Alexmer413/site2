@@ -1,0 +1,16 @@
+/*-----video-----*/
+.video__inner {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.video__item {
+  width: 420px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
