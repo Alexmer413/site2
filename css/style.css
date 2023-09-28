@@ -573,6 +573,10 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: flex-end;
 }
 
+.music__links_cover {
+  margin-left: 5px;
+}
+
 .music-item {
   display: inline-block;
 }
@@ -620,7 +624,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1000px) {
   .singles__cover {
-    display: none;
+    width: 120px;
   }
   .singles__both {
     width: 90%;
@@ -647,7 +651,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
   .singles__content {
-    margin-left: 0px;
+    margin-left: 10px;
   }
   .singles__links {
     padding-left: 0px;
@@ -676,6 +680,60 @@ h1, h2, h3, h4, h5, h6 {
   }
   .singles__link {
     padding: 4px 0px 4px 4px;
+  }
+  .singles__link-field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 22px;
+    width: 100px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .singles__both {
+    width: 100%;
+    font-size: 16px;
+  }
+  .singles__info {
+    display: none;
+  }
+  .singles__content {
+    margin-left: 10px;
+  }
+  .music__links_cover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .music-item {
+    margin-bottom: 5px;
+  }
+  .music-item:last-child {
+    margin-bottom: 0px;
+  }
+  .singles__text {
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .singles__link {
+    padding: 4px 0px 4px 4px;
+  }
+  .singles__link-field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 20px;
+    width: 90px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 /*----footer----*/
