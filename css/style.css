@@ -744,7 +744,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
   font-weight: 400;
   letter-spacing: 1.5px;
-  border-top: 1px solid rgb(116, 128, 193);
+  border-top: 2px solid rgb(116, 128, 193);
 }
 .footer__inner.footer-article {
   border-top: none;
